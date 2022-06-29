@@ -1,11 +1,10 @@
 {
-  "name": "electron-vue-vite",
-  "version": "2.0.0",
+  "name": "maria-redis-client",
+  "version": "1.0.0",
   "main": "dist/electron/main/index.js",
-  "description": "Really simple Electron + Vue + Vite boilerplate.",
-  "author": "草鞋没号 <308487730@qq.com>",
+  "description": "electron + vue3 + vite + pinia + ts 构建的超好用 redis 客户端",
+  "author": "realzzz1874@gmail.com",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && electron-builder"
@@ -34,5 +33,13 @@
     "vite",
     "vue3",
     "vue"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realzzz1874/MRDClient.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Realzzz1874/MRDClient/issues"
+  },
+  "homepage": "https://github.com/Realzzz1874/MRDClient#readme"
 }
